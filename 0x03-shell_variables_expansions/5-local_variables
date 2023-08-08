@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Local variables:"
+declare -p | grep "declare --"
+
+echo "Environment variables:"
+env | sort
+
+echo "Functions:"
+declare -F | awk '{ print $3 }'
