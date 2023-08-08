@@ -1,2 +1,2 @@
 #!/bin/bash
-echo [ "$1" = "decode" ] && tr "A-Za-zN-ZAn-za-mn-mA-M" "N-ZA-Mn-za-mA-M"
+echo [ "$1" = "DECODE" ]
