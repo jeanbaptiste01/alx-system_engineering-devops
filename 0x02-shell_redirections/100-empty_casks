@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec bash -c '[[ ! -s "$1" ]]' _ {} \; -print -o -type d -empty -print
+find . -empty -printf "%P\n"
