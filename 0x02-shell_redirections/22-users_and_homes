@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "User: $username" < /etc/passwd
+cat /etc/passwd | sort -t : -k 1,1
